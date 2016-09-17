@@ -15,23 +15,23 @@ Use Apache Maven 3.0 to build this project
 ###Step 3  
     mvn test 
 ##<a id="a3" name="a3"></a>Main code file structure  
-####<a>core<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estimate<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select <a><br>
+<strong>core<strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estimate<strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select <strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CrowdDEC.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CrowdQEC.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Distribution.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WorkerModel.java<a><br>
-<a>worker<a><br>
+<strong>worker<strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AMTWorker.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AMTWorkerPool.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WorkerPool.java<a><br>
-<a>util<a><br>
+<strong>util<strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domain.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Histogram.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KL.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ScoredItem.java<a><br>
-<a>&nbsp;launchers<a><br>
+<strong>&nbsp;launchers<strong><br>
 
 
 
