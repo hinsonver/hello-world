@@ -10,7 +10,7 @@ Use Apache Maven 3.0 to build this project
     mvn test 
 ##Main code file structure  
 app                      → Application sources  
-&nbsp└ assets → Compiled asset sources  
+    └ assets → Compiled asset sources  
     &nbsp&nbsp└ stylesheets        → Typically LESS CSS sources  
         &nbsp&nbsp&nbsp└ javascripts        → Typically CoffeeScript sources
  └ controllers           → Application controllers
