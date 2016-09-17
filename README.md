@@ -16,7 +16,10 @@ Use Apache Maven 3.0 to build this project
     mvn test 
 ##<a id="a3" name="a3"></a>Main code file structure  
 <strong>core<br></strong>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estimate    5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)<a><br>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estimate<a><br>
+
+5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)  
+
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select    5 kinds of worker selection algorithms (BestEffort, BruteForce, GreedyInsert, LocalSearch, Random)<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CrowdDEC.java<a><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CrowdQEC.java<a><br>
