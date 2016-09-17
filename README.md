@@ -7,11 +7,12 @@ Use Apache Maven 3.0 to build this project
 ###Step 2  
     mvn compile
 ###Step 3  
-    mvn test  
-app                      → Application sources
- └ assets                → Compiled asset sources
-    └ stylesheets        → Typically LESS CSS sources
-    └ javascripts        → Typically CoffeeScript sources
+    mvn test 
+##Main code file structure  
+app                      → Application sources  
+&nbsp└ assets → Compiled asset sources  
+    &nbsp&nbsp└ stylesheets        → Typically LESS CSS sources  
+        &nbsp&nbsp&nbsp└ javascripts        → Typically CoffeeScript sources
  └ controllers           → Application controllers
  └ models                → Application business layer
  └ views                 → Templates
