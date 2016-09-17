@@ -9,11 +9,10 @@ Use Apache Maven 3.0 to build this project
 ###Step 3  
     mvn test 
 ##Main code file structure  
-###crowdec
 ####core  
 ——estimate  
-———AbsoluteDiscountEstimator.java  
----EmpiricalEstimator.java  
+    AbsoluteDiscountEstimator.java  
+    EmpiricalEstimator.java  
 ---Estimator.java  
 ---GoodTuringEstimator.java  
 ---HybridEstimator.java  
