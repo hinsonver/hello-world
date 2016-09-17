@@ -36,7 +36,8 @@ Use Apache Maven 3.0 to build this project
 <a>PseudoWorker.java<a><br>
 <a>RunningExample.java<a><br>
 ##<a id="a5" name="a5"></a>Data
- <p>We conduct experiments on the well-known crowdsourcing platform Amazon Mechanical Turk (AMT) and evaluate the approaches on two real datasets collected from the workers on AMT.</p>  
+ We conduct experiments on the well-known crowdsourcing platform Amazon Mechanical Turk (AMT) and evaluate the approaches on two real datasets collected from the workers on AMT.  
+ 
 (1) The movie dataset contains a set of movie entities: each worker is asked to submit movies she knows, together with an attribute decade indicating the time a movie firstly publishes. The domain of this attribute contains 7 distinct values, ranging from 1950s to 2010s.  
 (2) The car dataset contains a set of car entities from the workers, together with an attribute body style which has15 distinct values, such as sedans , suvs , etc.
 
