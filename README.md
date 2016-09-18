@@ -22,20 +22,20 @@ The main content of the CrowdDEC algorithm.<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·select</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker selection algorithms (BestEffort, BruteForce, GreedyInsert, LocalSearch, Random)<a>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·CrowdDEC.java</strong><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CrowdDEC framework.<a>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CrowdDEC framework.<a><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·CrowdQEC.java</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Distribution.java</strong><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definition of Entity distribution.<a>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definition of Entity distribution.<a><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·WorkerModel.java</strong><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowd model for CrowdDEC.<a>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowd model for CrowdDEC.<a><br>
 ####·worker<br>
 Operations of the Crowdsourced workers.<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·AMTWorker.java</strong><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matches the workers and their submit timepoints.<a>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matches the workers and their submit timepoints.<a><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·AMTWorkerPool.java</strong><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Obtain all vaild workers and the entities they submit.<a>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Obtain all vaild workers and the entities they submit.<a><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·WorkerPool.java</strong><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defines 3 abstract methods of worker operations.<a>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defines 3 abstract methods of worker operations.<a><br>
 ####·util<br>
 Tool set.
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Domain.java</strong><br>
