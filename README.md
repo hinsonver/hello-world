@@ -15,7 +15,8 @@ Use Apache Maven 3.0 to build this project
 ###Step 3  
     mvn test 
 ##<a id="a3" name="a3"></a>Main code file structure  
-####·core <a> The main content of the CrowdDEC algorithm.<a><br>  
+####·core
+#####The main content of the CrowdDEC algorithm. 
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·estimate</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)<a>  
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·select</strong><br>
@@ -27,18 +28,16 @@ Use Apache Maven 3.0 to build this project
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definition of Entity distribution.<a><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·WorkerModel.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowd model for CrowdDEC.<a><br>
-####·worker<br>  
-
-Operations of the Crowdsourced workers.<br>
+####·worker
+#####Operations of the Crowdsourced workers.
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·AMTWorker.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matches the workers and their submit timepoints.<a><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·AMTWorkerPool.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Obtain all vaild workers and the entities they submit.<a><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·WorkerPool.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defines 3 abstract methods of worker operations.<a><br>
-####·util<br>  
-
-Tool set.
+####·util
+#####Tool set.
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Domain.java</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Histogram.java</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·KL.java</strong><br>
