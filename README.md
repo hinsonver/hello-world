@@ -50,7 +50,9 @@ Tool set.
 Run the programe.  
 ##<a id="a4" name="a4"></a>Test code file structure 
 <a>PseudoWorker.java<a><br>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a pseudo worker set.<a><br>
 <a>RunningExample.java<a><br>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A test running file.<a><br>
 ##<a id="a5" name="a5"></a>Data
  We conduct experiments on the well-known crowdsourcing platform Amazon Mechanical Turk (AMT) and evaluate the approaches on two real datasets collected from the workers on AMT.  
  
