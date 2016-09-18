@@ -17,22 +17,22 @@ Use Apache Maven 3.0 to build this project
 ##<a id="a3" name="a3"></a>Main code file structure  
 ####·core<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·estimate</strong><br>
-5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)  
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·select<a><br>
-5 kinds of worker selection algorithms (BestEffort, BruteForce, GreedyInsert, LocalSearch, Random)
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·CrowdDEC.java<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·CrowdQEC.java<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Distribution.java<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·WorkerModel.java<a><br>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)<a>  
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·select</strong><br>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker selection algorithms (BestEffort, BruteForce, GreedyInsert, LocalSearch, Random)<a>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·CrowdDEC.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·CrowdQEC.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Distribution.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·WorkerModel.java</strong><br>
 ####·worker<br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·AMTWorker.java<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·AMTWorkerPool.java<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·WorkerPool.java<a><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·AMTWorker.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·AMTWorkerPool.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·WorkerPool.java</strong><br>
 ####·util<br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Domain.java<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Histogram.java<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·KL.java<a><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·ScoredItem.java<a><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Domain.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Histogram.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·KL.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·ScoredItem.java</strong><br>
 ####·launchers<br>
 ##<a id="a4" name="a4"></a>Test code file structure 
 <a>PseudoWorker.java<a><br>
