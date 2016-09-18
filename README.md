@@ -17,10 +17,10 @@ Use Apache Maven 3.0 to build this project
 ##<a id="a3" name="a3"></a>Main code file structure  
 <strong>·core</strong>  
 The main content of the CrowdDEC algorithm.   
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;·estimate</strong><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)<a>  
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;·select</strong><br>
-<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker selection algorithms (BestEffort, BruteForce, GreedyInsert, LocalSearch, Random)<a><br>
+<strong>&nbsp;&nbsp;&nbsp;·estimate</strong><br>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)<a>  
+<strong>&nbsp;&nbsp;&nbsp;·select</strong><br>
+<a>&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker selection algorithms (BestEffort, BruteForce, GreedyInsert, LocalSearch, Random)<a><br>
 <strong>&nbsp;&nbsp;&nbsp;·CrowdDEC.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;CrowdDEC framework.<a><br>
 <strong>&nbsp;&nbsp;&nbsp;·CrowdQEC.java</strong><br>
@@ -50,9 +50,9 @@ Tool set.
 <strong>·launchers</strong>  
 Run the programe.  
 ##<a id="a4" name="a4"></a>Test code file structure 
-<a>PseudoWorker.java<a><br>
+<strong>·PseudoWorker.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Creates a pseudo worker set.<a><br>
-<a>RunningExample.java<a><br>
+<strong>·RunningExample.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;A test running file.<a><br>
 ##<a id="a5" name="a5"></a>Data
  We conduct experiments on the well-known crowdsourcing platform Amazon Mechanical Turk (AMT) and evaluate the approaches on two real datasets collected from the workers on AMT.  
