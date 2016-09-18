@@ -15,7 +15,7 @@ Use Apache Maven 3.0 to build this project
 ###Step 3  
     mvn test 
 ##<a id="a3" name="a3"></a>Main code file structure  
-####·core
+<strong>·core</strong>
 #####The main content of the CrowdDEC algorithm. 
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·estimate</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)<a>  
