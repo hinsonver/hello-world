@@ -15,42 +15,42 @@ Use Apache Maven 3.0 to build this project
 ###Step 3  
     mvn test 
 ##<a id="a3" name="a3"></a>Main Code Directory Structure  
-<strong>·core</strong>   
+<strong>core</strong>   
 The main content of the CrowdDEC algorithm.  
-<strong>&nbsp;&nbsp;&nbsp;·estimate</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;estimate</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker model estimation methods (AbsoluteDiscount, Empirical, GoodTuring, Hybrid, JelinekMercer)<a>  
-<strong>&nbsp;&nbsp;&nbsp;·select</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;select</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;5 kinds of worker selection algorithms (BestEffort, BruteForce, GreedyInsert, LocalSearch, Random)<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·CrowdDEC.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;CrowdDEC.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;CrowdDEC framework.<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·CrowdQEC.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;CrowdQEC.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Quotas crowdsourced entities collection framework,for comparing with CrowdDEC.<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·Distribution.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;Distribution.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Definition of entity distribution.<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·WorkerModel.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;WorkerModel.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Crowd model for CrowdDEC.<a><br>
-<strong>·worker</strong>  
+<strong>worker</strong>  
 Operations of the Crowdsourced workers.<br>
-<strong>&nbsp;&nbsp;&nbsp;·AMTWorker.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;AMTWorker.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Matches the workers and their submit timepoints.<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·AMTWorkerPool.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;AMTWorkerPool.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Obtain all vaild workers and the entities they submit.<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·WorkerPool.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;WorkerPool.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Defines 3 abstract methods of worker operations.<a><br>
-<strong>·util</strong>  
+<strong>util</strong>  
 Tool set.  
-<strong>&nbsp;&nbsp;&nbsp;·Domain.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;Domain.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Codes for workers and entities.<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·Histogram.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;Histogram.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Plots histograme.<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·KL.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;KL.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Compute the KL distance between the entity distribution.<a><br>
-<strong>&nbsp;&nbsp;&nbsp;·ScoredItem.java</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;ScoredItem.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Sort tool.<a><br>
-<strong>·launchers</strong>  
+<strong>launchers</strong>  
 Run the programe.  
 ##<a id="a4" name="a4"></a>Test Code Directory Structure 
-<strong>·PseudoWorker.java</strong><br>
+<strong>PseudoWorker.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Creates a pseudo worker set.<a><br>
 <strong>·RunningExample.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;A test running file.<a><br>
