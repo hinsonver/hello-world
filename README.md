@@ -2,8 +2,8 @@
 <ul>
     <li> <a href ="#a1">Documentation</a>
     <li> <a href ="#a2">Building</a>
-    <li> <a href ="#a3">Main code directory structure</a>
-    <li> <a href ="#a4">Test code directory structure</a>
+    <li> <a href ="#a3">Main Code Directory Structure</a>
+    <li> <a href ="#a4">Test Code Directory Structure</a>
     <li> <a href ="#a5">Data</a>
 ## <a id="a1" name="a1"></a>[Documentation] ()
 ## <a id="a2" name="a2"></a>Building  
@@ -14,7 +14,7 @@ Use Apache Maven 3.0 to build this project
     mvn compile
 ###Step 3  
     mvn test 
-##<a id="a3" name="a3"></a>Main code directory structure  
+##<a id="a3" name="a3"></a>Main Code Directory Structure  
 <strong>·core</strong>   
 The main content of the CrowdDEC algorithm.  
 <strong>&nbsp;&nbsp;&nbsp;·estimate</strong><br>
@@ -49,7 +49,7 @@ Tool set.
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Sort tool.<a><br>
 <strong>·launchers</strong>  
 Run the programe.  
-##<a id="a4" name="a4"></a>Test code directory structure 
+##<a id="a4" name="a4"></a>Test Code Directory Structure 
 <strong>·PseudoWorker.java</strong><br>
 <a>&nbsp;&nbsp;&nbsp;&nbsp;Creates a pseudo worker set.<a><br>
 <strong>·RunningExample.java</strong><br>
