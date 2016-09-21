@@ -32,7 +32,7 @@ The main content of the CrowdDEC algorithm.
 <strong>worker</strong>  
 Operations of the Crowdsourced workers.<br>
 <strong>&nbsp;&nbsp;AMTWorker.java</strong><br>
-<a>&nbsp;&nbsp;&Matches the workers and their submit timepoints.<a><br>
+<a>&nbsp;&nbsp;Matches the workers and their submit timepoints.<a><br>
 <strong>&nbsp;&nbsp;AMTWorkerPool.java</strong><br>
 <a>&nbsp;&nbsp;Obtain all vaild workers and the entities they submit.<a><br>
 <strong>&nbsp;&nbsp;WorkerPool.java</strong><br>
