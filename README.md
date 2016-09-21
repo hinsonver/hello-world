@@ -54,6 +54,8 @@ Run the programe.
 <a>&nbsp;&nbsp;Creates a pseudo worker set.<a><br>
 <strong>RunningExample.java</strong><br>
 <a>&nbsp;&nbsp;A test running file.<a><br>
+<strong>SimuEnv.java/SimuAssignEval.java</strong><br>
+<a>&nbsp;&nbsp;The test file of worker selection methods.<a><br>
 ##<a id="a5" name="a5"></a>Data
  We conduct experiments on the well-known crowdsourcing platform Amazon Mechanical Turk (AMT) and evaluate the approaches on two real datasets collected from the workers on AMT.  
  
